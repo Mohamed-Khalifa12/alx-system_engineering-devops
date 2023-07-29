@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-for i in *
+# Bash script that displays content
+for search in *
 do
-    echo "$i" | cut -d'-' -f2
+	echo "$search" | cut -d "-" -f 2
 done
